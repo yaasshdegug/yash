@@ -4,6 +4,7 @@ resource "aws_vpc" "main" {
       Name = "main-vpc"
       env="dev"
       project="yash"
+      project="YAshwanth"
     }
   }
 
