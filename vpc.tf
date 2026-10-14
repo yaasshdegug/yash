@@ -3,6 +3,7 @@ resource "aws_vpc" "main" {
     tags = {
       Name = "main-vpc"
       env="dev"
+      project="yash"
     }
   }
 
